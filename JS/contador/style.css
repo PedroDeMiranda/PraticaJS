@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #0059ff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0; /* Espaçamento entre os botões */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #003bb5;
+    transform: scale(1.05);
+}
+
+#dadoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dadoDiv label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#dadoDiv select {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#dadoDiv button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#dadoDiv button:hover {
+    background-color: #003bb5;
+    transform: scale(1.05);
+}
+
+#dadoResult {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+#dadoResult{
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    right: 0; /* Mover para a direita */
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#sidebar h2 {
+    text-align: center;
+}
+
+#historico {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historico li {
+    background-color: #444;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#content {
+    margin-right: 270px; /* Adiciona espaçamento à direita para a sidebar */
+    padding: 20px;
+}

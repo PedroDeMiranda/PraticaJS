@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url(senac.jpg);
 }
 
 header {
-    background-color: chocolate;
+    background-color: #00257A;
     color: #fff;
     padding: 20px;
     text-align: center;

@@ -1,0 +1,166 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout Principal */
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10vw;
+    height: 115px;
+}
+
+/* Conteúdo Principal */
+main {
+    display: flex;
+    width:65vw;
+    flex-direction: column;
+    background: white;
+    margin: 10px;
+}
+
+h2{
+    margin: 30px;
+}
+
+/* Formulário de Compra */
+#listaComprar {
+    background: #fbb03b;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+/* Linha dos Inputs */
+.input-row {
+    width: 55vw;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+/* Ajuste de Inputs */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-group-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: end;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+input[type="number"] {
+    width: 10vw;
+}
+
+/* Botão de Confirmar */
+#confirm-btn {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px; 
+    border-radius: 50vw; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Botão de Adicionar */
+.add-btn {
+    background: #00BFD4;
+    width: 20vw;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5vw;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Carrinho de Compras */
+aside {
+    flex: 1;
+    background: #00BFD4;
+    padding: 100px 20px;
+    color: white;
+}
+
+.cart-item {
+    background: #fbb03b;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    position: relative;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+}
+
+.item-base {
+    display: none;
+}
+
+.g-1 {
+    gap: 1em;
+}
+
+.gr-1 {
+    flex-grow: 1;
+}
+
+#qtd-item{
+    margin-right: 15px;
+}
+
+#carrinhoHeader{
+    text-align: center;
+}
+
+
+.comprado .item-body input, .comprado .item-body label {
+    display: none;
+}
+
+.comprado button {
+    background-color: orange;
+}
